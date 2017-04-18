@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>WebProject</display-name>
+  <welcome-file-list>
+    <welcome-file>Saveerloginpage.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Saveerloginpage</servlet-name>
+    <servlet-class>com.demo.Saveerloginpage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Saveerloginpage</servlet-name>
+    <url-pattern>/S</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginDemo</servlet-name>
+    <servlet-class>com.demo.LoginDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginDemo</servlet-name>
+    <url-pattern>/ServiceLogin</url-pattern>
+  </servlet-mapping>
+</web-app>
